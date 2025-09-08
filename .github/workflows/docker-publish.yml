@@ -216,7 +216,7 @@ jobs:
           #!/bin/bash
           set -e # Exit immediately if a command exits with a non-zero status.
 
-          secs=300                           # Set interval (duration) in seconds.
+          secs=600                           # Set interval (duration) in seconds.
           endTime=$(( $(date +%s) + secs )) # Calculate end time.
 
           check_app_health() {
